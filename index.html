@@ -7,66 +7,147 @@
 </head>
 <body>
 
-  <!-- Header -->
-  <header>
+  <!-- Navbar -->
+  <nav>
+    <h2 class="logo">Jensi</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
     <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img" />
     <h1>Jensi Kakdiya</h1>
-    <p>Data Science Student | Machine Learning & AI Enthusiast</p>
-  </header>
+    <p class="tagline">Aspiring Data Scientist | Machine Learning & AI Enthusiast</p>
+    <p>
+      Passionate about building intelligent systems using data, machine learning, and computer vision.
+    </p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
 
   <!-- About -->
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I am an M.Sc. Data Science student passionate about Data Analytics, 
-      Machine Learning, and Artificial Intelligence. I enjoy building projects 
-      in Computer Vision, Data Mining, and Dashboarding using Power BI.
+      I am an M.Sc. Data Science student with a strong interest in Machine Learning, Artificial Intelligence, 
+      and Computer Vision. I enjoy solving real-world problems using data analysis, predictive modeling, 
+      and visualization techniques.
+    </p>
+    <p>
+      I have hands-on experience working with Python, data science libraries, and tools such as Power BI 
+      and MySQL. Currently, I am exploring Deep Learning, Flask APIs, and advanced analytics to enhance my 
+      technical expertise and build impactful projects.
+    </p>
+    <p>
+      My goal is to work as a Data Scientist or Machine Learning Engineer where I can contribute to 
+      data-driven decision-making and intelligent system development.
     </p>
   </section>
 
   <!-- Skills -->
-  <section id="skills">
+  <section id="skills" class="bg-light">
     <h2>Skills</h2>
-    <ul>
-      <li>Python, Pandas, NumPy, Scikit-learn</li>
-      <li>Machine Learning, Computer Vision</li>
-      <li>Power BI, MySQL</li>
-      <li>Flask (Basic), Git & GitHub</li>
-    </ul>
+
+    <div class="skills-grid">
+      <div>
+        <h3>Programming</h3>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Libraries</h3>
+        <ul>
+          <li>Pandas, NumPy</li>
+          <li>Matplotlib, Seaborn</li>
+          <li>Scikit-learn</li>
+          <li>OpenCV, MediaPipe</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Tools</h3>
+        <ul>
+          <li>Power BI</li>
+          <li>Jupyter Notebook</li>
+          <li>GitHub</li>
+          <li>VS Code</li>
+          <li>MySQL</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Concepts</h3>
+        <ul>
+          <li>Data Analysis</li>
+          <li>Machine Learning</li>
+          <li>Computer Vision</li>
+          <li>Data Mining</li>
+          <li>Basic Deep Learning</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
   <!-- Projects -->
   <section id="projects">
     <h2>Projects</h2>
 
-    <div class="project">
+    <div class="project-card">
       <h3>Hand Gesture & Sign Language Recognition</h3>
       <p>
-        Real-time system using Python, OpenCV, MediaPipe and Machine Learning 
-        to recognize hand gestures and sign language symbols.
+        Real-time computer vision system to recognize hand gestures and sign language symbols using webcam input.
       </p>
-      <a href="https://github.com/jensikakdiya/Hand-signals-recognition-" target="_blank">View on GitHub</a>
+      <p><strong>Tech:</strong> Python, OpenCV, MediaPipe, Machine Learning</p>
+      <a href="https://github.com/jensikakdiya/Hand-signals-recognition-" target="_blank">View Project</a>
     </div>
 
-    <div class="project">
+    <div class="project-card">
       <h3>File Encryption & Decryption</h3>
       <p>
-        Python + PHP based tool using AES algorithm to secure files.
+        Security application to encrypt and decrypt files using AES algorithm.
       </p>
-      <a href="https://github.com/jensikakdiya/file-encryption-and-decryption" target="_blank">View on GitHub</a>
+      <p><strong>Tech:</strong> Python, PHP</p>
+      <a href="https://github.com/jensikakdiya/file-encryption-and-decryption" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Bookshop Management System</h3>
+      <p>
+        Web-based system to manage book inventory, sales, and customer records.
+      </p>
+      <p><strong>Tech:</strong> HTML, CSS, PHP, MySQL</p>
+      <a href="https://github.com/jensikakdiya/bookshop-management" target="_blank">View Project</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Smart City Platform</h3>
+      <p>
+        Platform demonstrating smart infrastructure and service management concepts.
+      </p>
+      <p><strong>Tech:</strong> Web Technologies, IoT Concepts</p>
+      <a href="https://github.com/jensikakdiya/smart-city" target="_blank">View Project</a>
     </div>
 
   </section>
 
   <!-- Certifications -->
-  <section id="certifications">
+  <section id="certifications" class="bg-light">
     <h2>Certifications</h2>
     <ul>
       <li>Advanced Statistics and Data Mining for Data Science</li>
       <li>Data Analytics Essentials</li>
       <li>Explore Machine Learning using Python</li>
       <li>Introduction to Artificial Intelligence</li>
-      <li>Power BI Certificate</li>
+      <li>Power BI Certification</li>
       <li>Generative AI – Certificate of Completion</li>
     </ul>
   </section>
@@ -75,9 +156,13 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: kakdiyajensi441@gmail.com</p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/jensi-kakdiya-a11742376" target="_blank">View Profile</a></p>
-    <p>GitHub: <a href="https://github.com/jensikakdiya" target="_blank">View GitHub</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/jensi-kakdiya-a11742376" target="_blank">LinkedIn Profile</a></p>
+    <p>GitHub: <a href="https://github.com/jensikakdiya" target="_blank">GitHub Profile</a></p>
   </section>
+
+  <footer>
+    <p>© 2026 Jensi Kakdiya | Portfolio</p>
+  </footer>
 
 </body>
 </html>
