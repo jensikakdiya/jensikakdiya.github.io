@@ -111,11 +111,12 @@ section {
   background: white;
 }
 
+/* Normal mode */
 h2 {
-  font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
-  color: #0f172a;
+  color: #0a192f;
+  transition: color 0.3s ease;
 }
+
 
 /* Skills */
 .skills-grid {
@@ -274,7 +275,11 @@ body.dark footer {
   background: #020617;
 }
 
-body.dark-mode h2,
+/* Dark mode */
+body.dark-mode h2 {
+  color: #ffffff;
+}
+
 body.dark-mode p,
 body.dark-mode h3 {
   color: #ffffff;
