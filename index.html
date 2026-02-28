@@ -2,191 +2,122 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="description" content="Jensi Kakdiya - Data Science Portfolio showcasing projects in Machine Learning, Computer Vision, and Data Analytics">
-  <title>Jensi Kakdiya | Data Science Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jensi Kakdiya | Portfolio</title>
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav>
-    <h2 class="logo">Jensi</h2>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+<!-- ===== Loader ===== -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero">
-    <img src="assets/profile.jpg" alt="Profile Photo" class="profile-img" />
+<!-- ===== Navbar ===== -->
+<nav>
+  <h2 class="logo">Jensi Kakdiya</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <h1>Jensi Kakdiya</h1>
-    <p class="tagline">Aspiring Data Scientist | Machine Learning & AI Enthusiast</p>
+<!-- ===== Hero Section ===== -->
+<section class="hero" id="home">
+  <img src="profile.jpg" alt="Profile" class="profile-img">
+  <h1>Hi, I'm Jensi Kakdiya</h1>
+  <p class="tagline"><span id="typing-text"></span></p>
+  <a href="#projects" class="btn">View My Work</a>
+</section>
 
-    <p>
-      M.Sc. Data Science student passionate about building intelligent systems using data, 
-      machine learning, and computer vision. Experienced in Python, data analytics, and 
-      real-world project development.
-    </p>
+<!-- ===== About ===== -->
+<section id="about" class="bg-light">
+  <h2>About Me</h2>
+  <p>
+    I am an aspiring Data Scientist and Machine Learning enthusiast with a strong interest
+    in AI-based applications, computer vision, and data-driven problem solving.
+  </p>
+</section>
 
-    <a href="#projects" class="btn">View Projects</a>
-    <a href="#contact" class="btn">Contact Me</a>
-    <a href="assets/Jensi_Kakdiya_Resume.pdf" class="btn" download>Download Resume</a>
-  </section>
+<!-- ===== Skills ===== -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills-grid">
+    <div>Python</div>
+    <div>Machine Learning</div>
+    <div>Data Analysis</div>
+    <div>Computer Vision</div>
+    <div>SQL</div>
+    <div>HTML / CSS</div>
+  </div>
+</section>
 
-  <!-- About -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I am an M.Sc. Data Science student with a strong interest in Machine Learning, Artificial Intelligence, 
-      and Computer Vision. I enjoy solving real-world problems using data analysis, predictive modeling, 
-      and visualization techniques.
-    </p>
-    <p>
-      I have hands-on experience working with Python, data science libraries, and tools such as Power BI 
-      and MySQL. Currently, I am exploring Deep Learning, Flask APIs, and advanced analytics to enhance my 
-      technical expertise and build impactful projects.
-    </p>
-    <p>
-      My goal is to work as a Data Scientist or Machine Learning Engineer where I can contribute to 
-      data-driven decision-making and intelligent system development.
-    </p>
-  </section>
+<!-- ===== Projects ===== -->
+<section id="projects" class="bg-light">
+  <h2>Projects</h2>
 
-  <!-- Skills -->
-  <section id="skills" class="bg-light">
-    <h2>Skills</h2>
+  <div class="project-card">
+    <h3>Hand Signal Recognition System</h3>
+    <p>Dual-mode system for hand gesture and sign language recognition using OpenCV and ML.</p>
+    <a href="https://github.com/jensikakdiya" target="_blank">View Project</a>
+  </div>
 
-    <div class="skills-grid">
-      <div>
-        <h3>Programming</h3>
-        <ul>
-          <li>Python</li>
-          <li>SQL</li>
-        </ul>
-      </div>
+  <div class="project-card">
+    <h3>TB Detection using Chest X-Ray</h3>
+    <p>Deep learning model for detecting tuberculosis from chest X-ray images.</p>
+    <a href="https://github.com/jensikakdiya" target="_blank">View Project</a>
+  </div>
 
-      <div>
-        <h3>Libraries</h3>
-        <ul>
-          <li>Pandas, NumPy</li>
-          <li>Matplotlib, Seaborn</li>
-          <li>Scikit-learn</li>
-          <li>OpenCV, MediaPipe</li>
-        </ul>
-      </div>
+</section>
 
-      <div>
-        <h3>Tools</h3>
-        <ul>
-          <li>Power BI</li>
-          <li>Jupyter Notebook</li>
-          <li>Git & GitHub</li>
-          <li>VS Code</li>
-          <li>MySQL</li>
-        </ul>
-      </div>
+<!-- ===== Contact ===== -->
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: jensikakdiya@gmail.com</p>
+  <p>GitHub: <a href="https://github.com/jensikakdiya" target="_blank">github.com/jensikakdiya</a></p>
+  <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn</a></p>
+</section>
 
-      <div>
-        <h3>Concepts</h3>
-        <ul>
-          <li>Data Analysis</li>
-          <li>Machine Learning</li>
-          <li>Computer Vision</li>
-          <li>Data Mining</li>
-          <li>Basic Deep Learning</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+<!-- ===== Footer ===== -->
+<footer>
+  <p>© 2026 Jensi Kakdiya | All Rights Reserved</p>
+</footer>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
+<!-- ===== Typing Animation Script ===== -->
+<script>
+const text = "Aspiring Data Scientist | Machine Learning & AI Enthusiast";
+let index = 0;
 
-    <div class="project-card">
-      <h3>Hand Gesture & Sign Language Recognition</h3>
-      <p>
-        Real-time computer vision system to recognize hand gestures and sign language symbols using webcam input.
-      </p>
-      <p><strong>Tech:</strong> Python, OpenCV, MediaPipe, Machine Learning</p>
-      <a href="https://github.com/jensikakdiya/Hand-signals-recognition-" target="_blank">View Project</a>
-    </div>
+function typeEffect() {
+  if (index < text.length) {
+    document.getElementById("typing-text").innerHTML += text.charAt(index);
+    index++;
+    setTimeout(typeEffect, 80);
+  }
+}
 
-    <div class="project-card">
-      <h3>File Encryption & Decryption</h3>
-      <p>
-        Security application to encrypt and decrypt files using AES algorithm.
-      </p>
-      <p><strong>Tech:</strong> Python, PHP</p>
-      <a href="https://github.com/jensikakdiya/file-encryption-and-decryption" target="_blank">View Project</a>
-    </div>
+typeEffect();
+</script>
 
-    <div class="project-card">
-      <h3>Bookshop Management System</h3>
-      <p>
-        Web-based system to manage book inventory, sales, and customer records.
-      </p>
-      <p><strong>Tech:</strong> HTML, CSS, PHP, MySQL</p>
-      <a href="https://github.com/jensikakdiya/bookshop-management" target="_blank">View Project</a>
-    </div>
+<!-- ===== Loader Script ===== -->
+<script>
+window.addEventListener("load", function() {
+  const loader = document.getElementById("loader");
+  loader.style.opacity = "0";
+  loader.style.transition = "opacity 0.5s ease";
 
-    <div class="project-card">
-      <h3>Smart City Platform</h3>
-      <p>
-        Platform demonstrating smart infrastructure and service management concepts.
-      </p>
-      <p><strong>Tech:</strong> Web Technologies, IoT Concepts</p>
-      <a href="https://github.com/jensikakdiya/smart-city" target="_blank">View Project</a>
-    </div>
-  </section>
-
-  <!-- Certifications -->
-  <section id="certifications" class="bg-light">
-    <h2>Certifications</h2>
-
-    <ul>
-      <li>Advanced Statistics and Data Mining for Data Science</li>
-      <li>Data Analytics Essentials</li>
-      <li>Explore Machine Learning using Python</li>
-      <li>Introduction to Artificial Intelligence</li>
-      <li>Power BI Certification</li>
-      <li>Generative AI – Certificate of Completion</li>
-    </ul>
-
-    <br>
-    <a href="https://github.com/jensikakdiya/certificates" target="_blank" class="btn">
-      View All Certificates
-    </a>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-
-    <p>If you'd like to collaborate or discuss opportunities, feel free to reach out:</p>
-
-    <a href="mailto:kakdiyajensi441@gmail.com" class="btn">Email Me</a>
-    <a href="https://linkedin.com/in/jensi-kakdiya-245585282" target="_blank" class="btn">LinkedIn</a>
-    <a href="https://github.com/jensikakdiya" target="_blank" class="btn">GitHub</a>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>© 2026 Jensi Kakdiya | Portfolio</p>
-  </footer>
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, 500);
+});
+</script>
 
 </body>
 </html>
