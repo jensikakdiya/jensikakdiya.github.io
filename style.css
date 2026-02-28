@@ -229,3 +229,43 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+/* Animations */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Dark Mode */
+body.dark {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+body.dark nav {
+  background: #020617;
+}
+
+body.dark section {
+  background: #0f172a;
+}
+
+body.dark .bg-light {
+  background: #1e293b;
+}
+
+body.dark .project-card,
+body.dark .skills-grid div {
+  background: #1e293b;
+  color: white;
+}
+
+body.dark footer {
+  background: #020617;
+}
