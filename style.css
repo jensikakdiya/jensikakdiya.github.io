@@ -274,11 +274,9 @@ body.dark footer {
   background: #020617;
 }
 
-body.dark-mode h2 {
-  color: #ffffff;
-}
-
+body.dark-mode h2,
 body.dark-mode p,
 body.dark-mode h3 {
   color: #ffffff;
 }
+
