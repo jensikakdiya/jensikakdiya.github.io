@@ -14,20 +14,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css" />
 </head>
-  
-<script>
-const toggle = document.getElementById("darkModeToggle");
-
-toggle.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
-
-  if (toggle.innerText.includes("Dark")) {
-    toggle.innerText = "☀️ Light Mode";
-  } else {
-    toggle.innerText = "🌙 Dark Mode";
-  }
-});
-</script>
 
   
 <body>
@@ -202,7 +188,7 @@ toggle.addEventListener("click", () => {
     <p>If you'd like to collaborate or discuss opportunities, feel free to reach out:</p>
 
    <a href="mailto:kakdiyajensi441@gmail.com" class="btn"><i class="fa-solid fa-envelope"></i> Email</a>
-   <a href="https://linkedin.com/in/jensi-kakdiya-245585282" class="btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+   <a href="https://linkedin.com/in/jensi-kakdiya-a11742376" class="btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
    <a href="https://github.com/jensikakdiya" class="btn"><i class="fa-brands fa-github"></i> GitHub</a>
   </section>
 
@@ -235,6 +221,20 @@ toggle.addEventListener("click", () => {
     setTimeout(() => {
       loader.style.display = "none";
     }, 500);
+  });
+  </script>
+
+  <script>
+  const toggle = document.getElementById("darkModeToggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+
+    if (toggle.innerText.includes("Dark")) {
+      toggle.innerText = "☀️ Light Mode";
+    } else {
+      toggle.innerText = "🌙 Dark Mode";
+    }
   });
   </script>
 </body>
