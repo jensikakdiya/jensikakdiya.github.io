@@ -24,6 +24,10 @@ nav {
   z-index: 100;
 }
 
+h1 {
+  transition: color 0.3s ease-in-out;
+}
+
 .logo {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -268,4 +272,14 @@ body.dark .skills-grid div {
 
 body.dark footer {
   background: #020617;
+}
+
+body.dark-mode h1 {
+  color: #ffffff;
+}
+
+body.dark-mode p,
+body.dark-mode h2,
+body.dark-mode h3 {
+  color: #ffffff;
 }
