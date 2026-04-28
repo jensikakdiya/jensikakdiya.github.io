@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jensi Kakdiya | Data Science Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <style>
     :root {
       --bg: #080b12;
@@ -37,7 +37,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { scroll-behavior: smooth; }
     body {
-      font-family: 'Outfit', sans-serif;
+      font-family: 'Inter', sans-serif;
       background: var(--bg);
       color: var(--text);
       line-height: 1.7;
@@ -58,9 +58,9 @@
     }
     .light nav { background: rgba(247,249,255,0.92); }
     .nav-logo {
-      font-family: 'Syne', sans-serif; font-weight: 800;
+      font-family: 'Poppins', sans-serif; font-weight: 800;
       font-size: 1.3rem; color: var(--accent);
-      text-decoration: none; letter-spacing: -0.02em;
+      text-decoration: none; letter-spacing: 0em;
     }
     .nav-links { display: flex; gap: 2.5rem; list-style: none; }
     .nav-links a {
@@ -74,7 +74,7 @@
       background: var(--surface2); border: 1px solid var(--border);
       color: var(--text-muted); padding: 0.4rem 1.1rem;
       border-radius: 20px; cursor: pointer; font-size: 0.85rem;
-      font-family: 'Outfit', sans-serif; transition: all 0.2s;
+      font-family: 'Inter', sans-serif; transition: all 0.2s;
     }
     .theme-btn:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -108,9 +108,9 @@
     }
     @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
     .hero-name {
-      font-family: 'Syne', sans-serif; font-weight: 800;
+      font-family: 'Poppins', sans-serif; font-weight: 800;
       font-size: clamp(3.2rem, 6vw, 5.5rem);
-      line-height: 1.05; letter-spacing: -0.03em;
+      line-height: 1.05; letter-spacing: -0.01em;
       margin-bottom: 0.7rem;
       opacity: 0; animation: fadeUp 0.6s 0.2s forwards;
     }
@@ -159,7 +159,7 @@
     .hero-avatar img {
       width: 100%; height: 100%; object-fit: cover;
     }
-    .hero-card-name { font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
+    .hero-card-name { font-family: 'Poppins', sans-serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
     .hero-card-role { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.6rem; }
     .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 0.9rem; }
     .hero-stat {
@@ -167,7 +167,7 @@
       padding: 0.9rem; text-align: center; border: 1px solid var(--border);
     }
     .hero-stat-num {
-      font-family: 'Syne', sans-serif; font-size: 1.5rem;
+      font-family: 'Poppins', sans-serif; font-size: 1.5rem;
       font-weight: 800; color: var(--accent); line-height: 1;
     }
     .hero-stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
@@ -181,9 +181,9 @@
       text-transform: uppercase; margin-bottom: 0.6rem;
     }
     .sec-title {
-      font-family: 'Syne', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-size: clamp(2rem, 3.5vw, 2.8rem);
-      font-weight: 800; letter-spacing: -0.02em; margin-bottom: 3.5rem;
+      font-weight: 800; letter-spacing: 0em; margin-bottom: 3.5rem;
     }
 
     /* ABOUT */
@@ -198,7 +198,7 @@
     }
     .about-card:hover { border-color: var(--accent); transform: translateY(-3px); }
     .about-card-num {
-      font-family: 'Syne', sans-serif; font-size: 2.4rem;
+      font-family: 'Poppins', sans-serif; font-size: 2.4rem;
       font-weight: 800; color: var(--accent); line-height: 1;
     }
     .about-card-label { font-size: 0.82rem; color: var(--text-muted); margin-top: 0.35rem; text-transform: uppercase; letter-spacing: 0.05em; }
@@ -213,7 +213,7 @@
     .skill-card:hover { border-color: var(--accent2); transform: translateY(-4px); box-shadow: 0 12px 36px var(--glow2); }
     .skill-card-icon { font-size: 2rem; margin-bottom: 0.9rem; }
     .skill-card-title {
-      font-family: 'Syne', sans-serif; font-size: 0.85rem;
+      font-family: 'Poppins', sans-serif; font-size: 0.85rem;
       font-weight: 700; color: var(--accent2);
       text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 1.1rem;
     }
@@ -257,7 +257,7 @@
       letter-spacing: 0.1em; margin-bottom: 0.7rem;
     }
     .project-name {
-      font-family: 'Syne', sans-serif; font-size: 1.35rem;
+      font-family: 'Poppins', sans-serif; font-size: 1.35rem;
       font-weight: 700; margin-bottom: 0.8rem; line-height: 1.3;
     }
     .project-desc { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.1rem; line-height: 1.75; }
@@ -295,7 +295,7 @@
       position: relative; overflow: hidden;
     }
     .proj-small-body { padding: 1.3rem; }
-    .proj-small-name { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.45rem; }
+    .proj-small-name { font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.45rem; }
     .proj-small-desc { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 0.9rem; line-height: 1.6; }
 
     /* CERTIFICATIONS */
