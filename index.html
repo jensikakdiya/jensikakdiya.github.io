@@ -153,9 +153,11 @@
     }
     .hero-avatar {
       width: 96px; height: 96px; border-radius: 50%;
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
-      display: flex; align-items: center; justify-content: center;
-      font-size: 2.8rem; margin-bottom: 1.3rem;
+      overflow: hidden; margin-bottom: 1.3rem;
+      border: 3px solid var(--accent);
+    }
+    .hero-avatar img {
+      width: 100%; height: 100%; object-fit: cover;
     }
     .hero-card-name { font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 700; margin-bottom: 0.25rem; }
     .hero-card-role { font-size: 0.88rem; color: var(--text-muted); margin-bottom: 1.6rem; }
@@ -395,11 +397,11 @@
         </p>
         <div class="hero-btns">
           <a href="#projects" class="btn-primary">View My Projects</a>
-          <a href="assets/Jensi_Kakdiya_Resume.pdf" class="btn-outline" download="Jensi_Kakdiya_Resume.pdf">⬇ Download Resume</a>
+          <a href="assets/Jensi_Kakdiya_Resume_bw.pdf" class="btn-outline" download="Jensi_Kakdiya_Resume_bw.pdf">⬇ Download Resume</a>
         </div>
       </div>
       <div class="hero-card">
-        <div class="hero-avatar">👩‍💻</div>
+        <div class="hero-avatar"><img src="assets/profile.jpg" alt="Jensi Kakdiya" /></div>
         <div class="hero-card-name">Jensi Kakdiya</div>
         <div class="hero-card-role">M.Sc. Data Science · Marwadi University</div>
         <div class="hero-stats">
